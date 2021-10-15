@@ -1,0 +1,47 @@
+
+/***************************************/
+/* NOSOTROS SECTION */
+/***************************************/
+
+.nosotros-main{
+    background: none;
+    display: flex;
+    background: linear-gradient(260deg, rgb(231, 41, 7) 30%, rgb(241, 240, 240) 50%, rgb(66, 202, 13) 100%);
+
+    .reseñaDiv{
+        text-align: center;
+        padding: 20px;
+        h1{
+            background-color: black;
+            border-radius: 20px;
+            padding: 18px;
+            clip-path: polygon(3% 0, 100% 0, 100% 84%, 0% 100%);
+         }
+         p{
+            margin-top: 10px;
+            color: #000;
+            font-weight: bold;
+        }
+        img{
+            width: 500px;
+        }
+        
+        .green{
+    color: green;
+        }
+        
+        .red{
+    color: red;
+}
+    }
+
+    .container-img img{
+        width: 600px;
+        margin-left: 10px;
+        border-radius: 20%;
+        box-shadow: 20px 2px 20px #000;
+    }
+}
+
+
+

@@ -1,0 +1,42 @@
+
+/***************************************/
+/* MENU SECTION */
+/***************************************/
+
+.menu{
+    padding: 15px;
+    background-color: rgb(151, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-align: center;
+    }
+
+    .menu-guy{
+        width: 100px;
+    }
+
+    .pizza-menu{
+        font-size: 50px;
+    }
+}
+
+.menu-container{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+
+    .card{
+        margin: 10px;
+
+        .card-title{
+            font-weight: bold;
+        }
+    }
+
+    }
