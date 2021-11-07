@@ -1,0 +1,231 @@
+
+/***************************************/
+/* NOSOTROS SECTION */
+/***************************************/
+
+.nosotros-main{
+    background: none;
+    display: flex;
+    background: linear-gradient(260deg, rgb(231, 41, 7) 30%, rgb(241, 240, 240) 50%, rgb(66, 202, 13) 100%);
+
+    .reseñaDiv{
+        text-align: center;
+        padding: 20px;
+        h1{
+            background-color: black;
+            border-radius: 20px;
+            padding: 18px;
+            clip-path: polygon(3% 0, 100% 0, 100% 84%, 0% 100%);
+         }
+         p{
+            margin-top: 10px;
+            color: #000;
+            font-weight: bold;
+        }
+        img{
+            width: 500px;
+        }
+        
+        .green{
+    color: green;
+        }
+        
+        .red{
+    color: red;
+}
+    }
+
+    .container-img img{
+        width: 480px;
+        margin-left: -10px;
+        border-radius: 20%;
+        box-shadow: 20px 2px 20px #000;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .reseñaDiv{
+        padding: 0;
+        position: relative;
+        left: 10px;
+    }
+
+    .nosotros-main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-img img{
+        transform: translateX(50px);
+    }
+
+
+}
+
+/****** 425 px DONE  *****/
+
+@media screen and (max-width: 425px){
+
+    .reseñaDiv{
+        padding: 0;
+        position: relative;
+        left: -80px;
+    }
+
+    .nosotros-main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-img img{
+        padding: 20px;
+        transform: translateX(-110px);
+    }
+
+    header{
+        width: 600px;
+        height: auto;
+        background-size: cover;
+        .logo{
+            position: relative;
+            top: 150px;
+            width: 280px;
+            height: 150px;
+        }
+
+        nav{
+            position: relative;
+            margin-top: 95px;
+            margin-left: 20px;
+            ul li{
+                display: flex;
+                position: relative;
+                left: 70px;
+                margin: 5px;
+                a{
+                    background-color: rgb(1, 12, 1);
+                    border-radius: 10px;
+                    padding: 10px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 650px;
+        width: 500px;
+
+        form{
+            position: relative;
+            left: 120px;
+            bottom: -350px;
+            margin-top: 0px;
+        }
+        h1{
+            font-size: 20px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .copy{
+            position: absolute;
+            right: -150px;
+            transform: translateY(-80px);
+            font-size: 10px;
+            ul{
+                position: relative;
+                right: 100px;
+                top: 100px;
+                display: flex;
+                flex-direction: column;
+                li{
+                    display: inline-block;
+                }
+            }
+         }
+         .footer-logo{
+            position: relative;
+            left: 0px;
+            img{
+                width: 250px;
+                position: relative;
+                left: 120px;
+                bottom: 100px;
+            }
+        }
+
+        .social-media2{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 20px;
+            top: 0px;
+            i{
+                font-size: 25px;
+            }
+        }
+        
+    }
+
+    form{
+        position: relative;
+        left: 150px;
+        bottom: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+/****** 375 px DONE  *****/
+
+@media screen and (max-width: 375px){
+
+    header{
+        width: 600px;
+        height: auto;
+        background-size: cover;
+        .logo{
+            position: relative;
+            top: 150px;
+            width: 280px;
+            height: 150px;
+        }
+
+        nav{
+            position: inherit;
+            margin-top: 95px;
+            margin-left: 50px;
+            ul li{
+                display: flex;
+                position: relative;
+                left: 40px;
+                margin: 5px;
+                a{
+                    background-color: rgb(1, 12, 1);
+                    border-radius: 10px;
+                    padding: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .social-media{
+        position: absolute;
+        right: 300px;
+        transform: translateY(120px);
+    }
+
+    footer .copy{
+        position: absolute;
+        right: -200px;
+        transform: translateY(-80px);
+        font-size: 10px;
+     }
+
+}

@@ -1,0 +1,130 @@
+
+/***************************************/
+/* MENU SECTION */
+/***************************************/
+
+.menu{
+    padding: 15px;
+    background-color: rgb(151, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-align: center;
+    }
+
+    .menu-guy{
+        width: 100px;
+    }
+
+    .pizza-menu{
+        font-size: 50px;
+    }
+}
+
+.menu-container{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+
+    .card{
+        margin: 10px;
+
+        .card-title{
+            font-weight: bold;
+        }
+    }
+
+    }
+
+    /****** 768 px DONE  *****/
+@media screen and (max-width: 768px){
+
+    header{
+        background-size: cover;
+        .logo{
+            width: 250px;
+            height: 150px;
+        }
+    }
+
+    nav{
+        position: inherit;
+        margin-top: 95px;
+        margin-left: 50px;
+
+        ul li{
+            display: inline-block;
+            margin: 5px;
+            a{
+                margin: 2px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 550px;
+
+        h1{
+            font-size: 20px;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .copy{
+            position: absolute;
+            right: 30px;
+            transform: translateY(-80px);
+            font-size: 10px;
+            ul{
+                position: relative;
+                right: 100px;
+                top: 100px;
+                display: flex;
+                flex-direction: column;
+                li{
+                    display: inline-block;
+                }
+            }
+         }
+
+         .footer-logo{
+            position: relative;
+            left: 0px;
+            img{
+                width: 420px;
+                position: relative;
+                left: 80px;
+                bottom: 120px;
+            }
+        }
+
+        .social-media2{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 20px;
+            top: 0px;
+        }
+        i{
+            font-size: 25px;
+        }
+
+        form{
+            position: absolute;
+            right: -150px;
+            transform: translateY(-450px);
+            width: 50%;
+            margin-top: 0px;
+        }
+    }
+
+}
